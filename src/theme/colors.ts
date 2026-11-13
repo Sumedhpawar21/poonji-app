@@ -1,0 +1,15 @@
+export const colors = {
+  primary: '#00614c',
+  primaryDeep: '#267a63',
+  primaryFixed: '#a2f3d6',
+  onPrimaryFixed: '#002118',
+  ink: '#141d1b',
+  moss: '#3f4944',
+  secondary: '#56615c',
+  tertiary: '#844136',
+  onSecondaryContainer: '#5c6762',
+  inverseInk: '#e9f3ef',
+  white: '#ffffff',
+  caution: '#B77A28',
+  positive: '#287A56',
+};

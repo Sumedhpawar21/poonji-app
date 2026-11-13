@@ -1,10 +1,42 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./App.{js,ts,tsx}', './components/**/*.{js,ts,tsx}'],
-
+  content: ['./App.{js,ts,tsx}', './src/**/*.{js,ts,tsx}'],
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        surface: '#f2fcf8',
+        'surface-low': '#ecf6f2',
+        'surface-mid': '#e6f0ec',
+        'surface-high': '#e0eae7',
+        'surface-highest': '#dbe5e1',
+        ink: '#141d1b',
+        moss: '#3f4944',
+        secondary: '#56615c',
+        outline: '#6f7974',
+        line: '#bec9c3',
+        hairline: '#E6EAE6',
+        primary: '#00614c',
+        'primary-deep': '#267a63',
+        'primary-fixed': '#a2f3d6',
+        'primary-dim': '#86d6bb',
+        'on-primary-fixed': '#002118',
+        tertiary: '#844136',
+        'tertiary-fixed': '#ffdad4',
+        'secondary-container': '#dae5df',
+        'on-secondary-container': '#5c6762',
+        inverse: '#293230',
+        'inverse-ink': '#e9f3ef',
+        canvas: '#F7F8F6',
+        positive: '#287A56',
+        caution: '#B77A28',
+      },
+      fontFamily: {
+        sans: ['Manrope_500Medium'],
+        display: ['Manrope_600SemiBold'],
+        body: ['Manrope_400Regular'],
+      },
+    },
   },
   plugins: [],
 };
